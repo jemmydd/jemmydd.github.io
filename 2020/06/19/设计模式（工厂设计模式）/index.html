@@ -94,10 +94,14 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="jemmyBlog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="工厂模式分为工厂方法模式和抽象工厂模式。 工厂方法模式 工厂方法模式分为三种：普通工厂模式，就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。 多个工厂方法模式，是对普通工厂方法模式的改进，在普通工厂方法模式中，如果传递的字符串出错，则不能正确创建对象，而多个工厂方法模式是提供多个工厂方法，分别创建对象。 静态工厂方法模式，将上面的多个工厂方法模式里的方法置为静态的，不需要创建实例，直接">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设计模式（工厂模式）">
+<meta property="og:url" content="http://yoursite.com/2020/06/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%B7%A5%E5%8E%82%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%89/index.html">
 <meta property="og:site_name" content="jemmyBlog">
+<meta property="og:description" content="工厂模式分为工厂方法模式和抽象工厂模式。 工厂方法模式 工厂方法模式分为三种：普通工厂模式，就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。 多个工厂方法模式，是对普通工厂方法模式的改进，在普通工厂方法模式中，如果传递的字符串出错，则不能正确创建对象，而多个工厂方法模式是提供多个工厂方法，分别创建对象。 静态工厂方法模式，将上面的多个工厂方法模式里的方法置为静态的，不需要创建实例，直接">
+<meta property="article:published_time" content="2020-06-19T11:46:18.989Z">
+<meta property="article:modified_time" content="2020-06-22T02:42:27.935Z">
 <meta property="article:author" content="jemmy">
 <meta name="twitter:card" content="summary">
 
@@ -128,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2020/06/19/设计模式（工厂设计模式）/"/>
 
 
 
 
 
-  <title>jemmyBlog</title>
+  <title>设计模式（工厂模式） | jemmyBlog</title>
   
 
 
@@ -159,9 +163,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 	
 	<a href="https://github.com/jemmydd" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub">
@@ -283,175 +285,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/06/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jemmy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jemmyBlog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/06/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%89/" itemprop="url">设计模式（建造者模式）</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-22T10:47:23+08:00">
-                2020-06-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2020/06/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%89/" class="leancloud_visitors" data-flag-title="设计模式（建造者模式）">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">热度 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-				 <span>℃</span>
-				 <span class="post-meta-divider">|</span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计</span>
-                
-                <span title="字数统计">
-                  324
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>工厂模式提供的是创建单个类的模式，而建造者模式则是将各种产品集中起来管理，用来创建复合对象，所谓复合对象就是指某个类具有不同的属性。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br></pre></td><td class="code"><pre><span class="line">import java.util.ArrayList;</span><br><span class="line">import java.util.List;</span><br><span class="line"></span><br><span class="line">abstract class Builder &#123;</span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 第一步 装CPU</span><br><span class="line">    *&#x2F;</span><br><span class="line">    public abstract void buildCPU();</span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 第二步 装主板</span><br><span class="line">    *&#x2F;</span><br><span class="line">    public abstract void buildMainBoard();</span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 第三步 装硬盘</span><br><span class="line">    *&#x2F;</span><br><span class="line">    public abstract void buildHD();</span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 获得组装好的电脑</span><br><span class="line">    * @return</span><br><span class="line">    *&#x2F;</span><br><span class="line">    public abstract Computer getComputer();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line">* 装机人员装机</span><br><span class="line">*&#x2F;</span><br><span class="line">class Director &#123;</span><br><span class="line">    public void construct(Builder builder) &#123;</span><br><span class="line">        builder.buildCPU();</span><br><span class="line">        builder.buildMainBoard();</span><br><span class="line">        builder.buildHD();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line">* 具体的装机人员</span><br><span class="line">*&#x2F;</span><br><span class="line">public ConcreteBuilder extends Builder &#123;</span><br><span class="line">    Computer computer &#x3D; new Computer();</span><br><span class="line">    </span><br><span class="line">    @Override</span><br><span class="line">    public void buildCPU() &#123;</span><br><span class="line">        computer.add(&quot;装CPU&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void buildMainBoard() &#123;</span><br><span class="line">        computer.add(&quot;装主板&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void buildHD() &#123;</span><br><span class="line">        computer.add(&quot;装硬盘&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">  </span><br><span class="line">    @Override</span><br><span class="line">    public Computer getComputer() &#123;</span><br><span class="line">        return computer;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class Computer &#123;</span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 电脑组件集合</span><br><span class="line">    *&#x2F;</span><br><span class="line">    private List&lt;String&gt; parts &#x3D; new ArrayList&lt;&gt;();</span><br><span class="line">    </span><br><span class="line">    public void add(String pa) &#123;</span><br><span class="line">        parts.add(part);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void print() &#123;</span><br><span class="line">        for (int i &#x3D; 0; i &lt; parts.size(); i++) &#123;</span><br><span class="line">            System.out.println(&quot;组件:&quot; + parts.get(i) + &quot;装好了...&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(&quot;电脑组装完毕...&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class BuilderPattern &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Builder builder &#x3D; new ConcreteBuilder();</span><br><span class="line">        Director director &#x3D; new Direcotr();</span><br><span class="line">        director.construct(builder);</span><br><span class="line">        Computer computer &#x3D; builder.getComputer();</span><br><span class="line">        computer.print();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-          
-        
-      
-    </div>
-    
-    
-    
-
-	
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -481,9 +317,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/06/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%B7%A5%E5%8E%82%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%89/" itemprop="url">设计模式（工厂模式）</a></h1>
+          <h1 class="post-title" itemprop="name headline">设计模式（工厂模式）</h1>
         
 
         <div class="post-meta">
@@ -577,9 +411,7 @@
       
 
       
-        
-          
-            <p>工厂模式分为工厂方法模式和抽象工厂模式。</p>
+        <p>工厂模式分为工厂方法模式和抽象工厂模式。</p>
 <h5 id="工厂方法模式"><a href="#工厂方法模式" class="headerlink" title="工厂方法模式"></a>工厂方法模式</h5><ol>
 <li>工厂方法模式分为三种：普通工厂模式，就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。</li>
 <li>多个工厂方法模式，是对普通工厂方法模式的改进，在普通工厂方法模式中，如果传递的字符串出错，则不能正确创建对象，而多个工厂方法模式是提供多个工厂方法，分别创建对象。</li>
@@ -597,14 +429,20 @@
 
 <p>总体来说，工厂模式的主要作用是解耦代码，对同一类产品进行管理，生产同一类产品或同一类种族的产品。</p>
 
-          
-        
       
     </div>
     
     
     
 
+	
+		<div>
+			<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+		</div>
 	
 
     
@@ -617,183 +455,32 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/06/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jemmy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jemmyBlog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/06/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%EF%BC%89/" itemprop="url">设计模式（单例模式）</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-19T19:35:29+08:00">
-                2020-06-19
-              </time>
+              <a href="/2020/06/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%EF%BC%89/" rel="next" title="设计模式（单例模式）">
+                <i class="fa fa-chevron-left"></i> 设计模式（单例模式）
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
+              <a href="/2020/06/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%EF%BC%89/" rel="prev" title="设计模式（建造者模式）">
+                设计模式（建造者模式） <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2020/06/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%EF%BC%89/" class="leancloud_visitors" data-flag-title="设计模式（单例模式）">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">热度 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-				 <span>℃</span>
-				 <span class="post-meta-divider">|</span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计</span>
-                
-                <span title="字数统计">
-                  370
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
-              
-            </div>
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>什么是单例模式？<br>所谓单例模式就是指一个类只允许产生一个实例化对象。<br>是最好理解的一种设计模式，分为懒汉式和饿汉式。</p>
-<ol>
-<li>饿汉式：构造方法私有化，外部无法产生新的实例化对象，只能通过static方法获得实例化对象<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">class Singleton &#123;</span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 在类的内部可以访问私有结构，所以可以在类的内部产生实例化对象</span><br><span class="line">    *&#x2F;</span><br><span class="line">    private static Singleton instance &#x3D; new Singleton();</span><br><span class="line">    &#x2F;**</span><br><span class="line">    * private 声明构造</span><br><span class="line">    *&#x2F;</span><br><span class="line">    private Singleton() &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 返回实例对象</span><br><span class="line">    *&#x2F;</span><br><span class="line">    public static Singleton getInstance() &#123;</span><br><span class="line">        return instance;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void print() &#123;</span><br><span class="line">        System.out.println(&quot;Hello Singleton...&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-<li>懒汉式：当第一次使用Singleton对象的时候才会为其产生实例化对象的操作<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">class Singleton &#123;</span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 声明变量</span><br><span class="line">    *&#x2F;</span><br><span class="line">    private static volatile Singleton singleton &#x3D; null;</span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 私有构造方法</span><br><span class="line">    *&#x2F;</span><br><span class="line">    private Singleton() &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    &#x2F;**</span><br><span class="line">    * 提供对外方法</span><br><span class="line">    * @return</span><br><span class="line">    *&#x2F;</span><br><span class="line">    public static Singleton getInstance() &#123;</span><br><span class="line">        &#x2F;&#x2F; 还未实例化</span><br><span class="line">        if (singleton &#x3D;&#x3D; null) &#123;</span><br><span class="line">            synchronized (Singleton.class) &#123;</span><br><span class="line">                if (singleton &#x3D;&#x3D; null) &#123;</span><br><span class="line">                    singleton &#x3D; new Singleton();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return singleton;</span><br><span class="line">    &#125;</span><br><span class="line">    public void print() &#123;</span><br><span class="line">        System.out.println(&quot;Hello Singleton...&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-当多个线程并发执行getInstance方法时，懒汉模式会产生线程安全问题，所以用到了synchronized关键字来实现线程的同步，当一个线程获得锁的时候其他线程就只能在外等待其执行完毕。而饿汉模式不存在线程安全的问题。</li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-	
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -803,198 +490,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/06/16/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%9A%84%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jemmy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jemmyBlog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/06/16/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%9A%84%E5%8D%9A%E5%AE%A2/" itemprop="url">5分钟 搭建免费个人博客</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-16T16:59:27+08:00">
-                2020-06-16
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2020/06/16/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="leancloud_visitors" data-flag-title="5分钟 搭建免费个人博客">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">热度 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-				 <span>℃</span>
-				 <span class="post-meta-divider">|</span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计</span>
-                
-                <span title="字数统计">
-                  702
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长</span>
-                
-                <span title="阅读时长">
-                  2
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="五分钟倒数已经可以计时了。"><a href="#五分钟倒数已经可以计时了。" class="headerlink" title="五分钟倒数已经可以计时了。"></a>五分钟倒数已经可以计时了。</h1><p>三步完成免费个人博客搭建， 这是一篇小白也能看懂的文章，本文主要针对mac OS ，Windows 除了软件安装方式和命令有些区别（装了git bash也一样），其他基本一样。</p>
-<p>你可能会经常看到类似于这样的博客：<img src="https://upload-images.jianshu.io/upload_images/17118790-853a682adb668476.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="vno"> <img src="https://upload-images.jianshu.io/upload_images/17118790-8a51376bc64f2681.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="这个是打酱油的"></p>
-<p>在4分50秒以后你也能够有一个类似的blog了。</p>
-<p>有简书了为什么还需要个人博客呢，除了装逼，当然还有个人博客更加自由，不受任何第三方管理，并且还能够自定义成自己喜欢的样子。还有，如果你是个程序猿，那就更没有理由不自己搭建一个独立博客了。<br>好了，不BB了。抓紧时间开始。</p>
-<h2 id="1-创建Github-域名和空间"><a href="#1-创建Github-域名和空间" class="headerlink" title="1. 创建Github 域名和空间"></a>1. 创建Github 域名和空间</h2><h5 id="1-1注册"><a href="#1-1注册" class="headerlink" title="1.1注册"></a>1.1注册</h5><p>首先你需要注册一个<a href="https://github.com" target="_blank" rel="noopener">Github</a>账号，已有的可以下翻去<strong><code>1.2 创建仓库</code></strong>，注意username，这会影响到你的域名，你的域名将会是 username.github.io ，所以认真的取个名字吧。<img src="https://upload-images.jianshu.io/upload_images/136678-a5b815963631f1bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/794/format/webp" alt="Create account
-"></p>
-<p>注册过程可能需要验证你的邮箱，其他就不在赘述。</p>
-<h5 id="1-2-创建仓库"><a href="#1-2-创建仓库" class="headerlink" title="1.2 创建仓库"></a>1.2 创建仓库</h5><p>然后需要创建一个仓库(repository) 来存储我们的网站，点击首页任意位置出现的 <strong><code>New repository</code></strong>按钮创建仓库, Respository name 中的<strong><code>username</code></strong>.github.io 的<strong><code>username</code></strong> 一定与前面的Owner 一致，记住你的<strong><code>username</code></strong>下面会用到。<img src="https://upload-images.jianshu.io/upload_images/136678-56e4a7256ab4f141.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/760/format/webp" alt="Create reponsitory
-"></p>
-<p>第一步就已经完成了，下面是安装。</p>
-<h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2. 安装"></a>2. 安装</h2><p><a href="https://link.jianshu.com?t=https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">Hexo</a> 可以说是目前最流行的博客框架了，基于Nodejs，更多信息可以google，下面需要安装的工具包括 Git，Nodejs，Hexo。（Windows 用户自行搜索这些工具，直接安装即可，试过基本没啥问题）</p>
-<p>1.安装Git<br>我就想问问，还有谁没装Git么？<br>// 如果已安装HomeBrew 无需执行此行<br>$  /usr/bin/ruby -e “ $(curl -fsSL <a href="https://link.jianshu.com?t=https://raw.githubusercontent.com/Homebrew/install/master/install" target="_blank" rel="noopener">https://raw.githubusercontent.com/Homebrew/install/master/install</a>)”</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install git   &#x2F;&#x2F; 安装Git</span><br></pre></td></tr></table></figure>
-
-<p>你也可以通过下载<a href="https://link.jianshu.com/?t=https://sourceforge.net/projects/git-osx-installer/" target="_blank" rel="noopener">安装程序</a>来安装</p>
-<p>2.安装Nodejs<br>先安装nvm，这是Nodejs版本管理器，可以轻松切换Nodejs版本。 这里有两种方式安装。如果使用curl的方式安装，安装完成之后一定要重启终端。</p>
-<ol>
-<li>Homebrew 安装方式，此安装方式无需重启<br>$ brew install nvm<br>$ mkdir ~/.nvm<br>$ export NVM_DIR=~/.nvm<br>$ . $(brew –prefix nvm)/nvm.sh</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2. curl安装方式</span><br><span class="line">$ curl https:&#x2F;&#x2F;raw.github.com&#x2F;creationix&#x2F;nvm&#x2F;master&#x2F;install.sh | sh</span><br></pre></td></tr></table></figure>
-<p>安装完成后，重启终端 并执行下列命令即可安装 Node.js。<br>$ nvm install 4</p>
-<p>3.安装Hexo<br>以上所有都安装完成之后再安装Hexo<br>$ sudo npm install hexo-cli -g</p>
-<p>所有必须工具已经安装完成，下面我们就可以生成博客，上传至我们的Github 仓库了。</p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-	
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -1002,6 +502,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -1022,8 +526,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -1080,6 +593,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#工厂方法模式"><span class="nav-number">1.</span> <span class="nav-text">工厂方法模式</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-普通工厂模式"><span class="nav-number"></span> <span class="nav-text">1. 普通工厂模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-多个工厂方法模式"><span class="nav-number"></span> <span class="nav-text">2. 多个工厂方法模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-静态工厂方法模式"><span class="nav-number"></span> <span class="nav-text">3. 静态工厂方法模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-抽象工厂模式"><span class="nav-number"></span> <span class="nav-text">4. 抽象工厂模式</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1202,10 +731,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
